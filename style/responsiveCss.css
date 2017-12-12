@@ -1,0 +1,125 @@
+div{
+    width: 100%;
+    border: yellow solid thick;
+}
+.tablenew{
+    width:50%;
+    border: blue thick solid;
+}
+
+/*body{
+	margin: 1%;
+	padding:1%;
+	background-color: rgba(0,0,255,.2);
+	font-size: 100%;
+	min-width: 500px;
+
+}
+header, footer{
+  background-color:#0066FF;
+  padding: 1%;
+  margin: 1%;
+}
+header h1{
+	font-size: 3rem;
+	color:rgba(0,0,0,.7);;
+}
+
+section{
+  margin:1%;
+    padding:1%;
+}
+
+nav a{
+	display:block;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 35px;
+	text-decoration: none;
+	padding: 2%;
+	margin: 1%;
+}
+
+h1{
+	text-align: center;
+	color:rgba(255,0,0,.7);;
+}
+
+
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
+
+	/* Safari and Chrome */	
+	/*-webkit-column-count:3;
+	-moz-column-count: 3;
+	column-count:3;
+	
+}
+
+ol{
+	list-style:upper-roman; 
+	margin:1em;
+}
+
+
+footer{
+	clear: both;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+/*@media screen and (min-width:900px){
+
+    header{
+        padding: 1%;
+        background-color: transparent;
+        margin: 1%;
+      }
+
+      header>h1::after{
+          content: "(I guess so...!)"
+      }
+
+      #images{
+          display: flex;
+          border-color: blue;
+      }
+     #images> img{
+       padding: 1%;
+       margin:0px auto;
+       display: block;
+       width:20%;
+       height:100%;
+      }
+      #left{
+          float: left;
+          margin-right: 5%;
+      }
+
+      footer{
+        clear: both;
+        text-align:center;
+        background-color: transparent;
+    }
+}
+
+
+@media print{
+
+    h1{font-size: 1rem;}
+    nav a{
+        display:block;
+        background-color: white;
+        border: 0px solid black;
+        text-align: center;
+        border-radius: 0px;
+        text-decoration: none;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+}*/

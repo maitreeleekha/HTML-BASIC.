@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plotting functions in JavaScript using the 
+    function plot library</title>
+
+    <link rel="stylesheet" href="style/mathsplots.css">
+  <meta charset="utf-8"/>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+  <script src="js/mathsplots.js"></script>
+</head>
+<body onload="plot();">
+
+<section id="interactive">
+<h1>Add the plot settings:</h1>
+<label for="xMin">xMin: </label>
+<input type="text" value="0" id="xMin" oninput="plot()">
+
+<label for="xMax">xMax: </label>
+<input type="text" value="6.28" id="xMax" oninput="plot()">
+
+<label for="yMin">yMin: </label>
+<input type="text" value="-1" id="yMin" oninput="plot()">
+
+<label for="yMax">yMax: </label>
+<input type="text" id="yMax" value="1" oninput="plot()">
+
+<label for="colorSettings">Color: </label>
+<input type="Color" id="color" oninput="plot()">
+
+<label for="function">Function: </label>
+<input type="text" id="Function" value="sin(x)" oninput="plot()">
+
+</section>
+  <section id="plot">
+     <div id="myFunction"></div>
+  </section>
+</body>
+</html>

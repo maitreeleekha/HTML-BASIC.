@@ -1,0 +1,78 @@
+
+body{
+    font-family: cursive;
+}
+#mainSec{
+    display:block;
+}
+
+div{
+    margin:2%;
+    text-align: justify;
+}
+
+nav{
+display: flex;
+width:70%;
+margin:0px auto;
+padding:0.5%;
+text-align: center; 
+}
+nav>a:hover{
+    color: teal;
+    outline: 10px;
+}
+
+nav>a{
+    color: rgb(48, 31, 49);
+    margin:1px auto;
+    line-height: 30px;
+    background-color: rgb(243, 188, 237);
+    font-size: 1.5em;
+    padding:1%;
+    line-height: 100%;
+    border:solid thin white;
+    border-radius: 5%;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+@media all AND (min-width:750px) {
+
+ nav{
+      display:flex;
+      flex-flow: column;
+      width:15%;
+      float:left;
+      position: relative;
+      top:20%;
+  }
+
+  nav>a{
+    width:100%;
+    color: rgb(48, 31, 49);
+    font-size: 1.5em;
+    padding:1%;
+    border:solid thin;
+    border:solid thin white;
+    border-radius: 5%;
+  }
+
+
+  
+    #mainSec{
+    display: flex;
+    flex-flow: row wrap;
+    margin:0px auto;
+}
+
+div{
+    width:30%;
+    margin:0px auto;
+}
+
+}
+
+

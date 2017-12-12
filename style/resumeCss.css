@@ -1,0 +1,66 @@
+#mainSection{
+    background-color: white;
+    width: 75%;
+    margin:0px auto;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
+article , section {
+    background-color: rgb(233, 215, 215);
+}
+
+.headings{
+    color: rgb(29, 160, 221); 
+}
+
+header>span{
+
+    float: right;
+}
+
+#tallUnit2{
+    width:30%;
+    float: right;
+    background-color: white;
+    position: relative;
+    top:-6px;
+}
+hr {
+    height: 3px;
+    color: black;
+    background: black;
+    font-size: 0;
+    border: 0;
+}
+#workexp{
+    width: 68%;
+}
+
+article>section{
+    margin-bottom: 0.5%;
+}
+
+footer{
+    width: 25%;
+    align-content: centre;
+    margin: 0px auto;
+}
+article>section >section.years{
+    width:15%;
+    text-align: center;
+    float: left;
+    margin-top: 2.5%;
+    margin-left:2.5%;
+}
+article>section >section.exp{
+    border-left:rgb(0, 0, 0) thick solid;
+    margin-left: 23%;
+    
+}
+#charity{
+    clear: both;
+}

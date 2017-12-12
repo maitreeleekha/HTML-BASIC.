@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>building tables on the fly</title>
+        <script src="js/building a table.js">
+        </script>
+    </head>
+
+    <body>
+
+        <label for="firstName">Enter the firstName</label>
+        <input type="text" placeholder="first name" id="fname">
+        <br>
+        <label for="lastNme">Enter the lastNmae</label>
+        <input type="text" placeholder="last name" id="lname">
+
+        <h1>HERE GOES YOUR TABLE!</h1>
+        <button onclick="buildTable()">Click me to add a row!</button>
+        <br>
+        <table>
+            <thead>
+                <th>firstName</th>
+                <th>lastName</th>
+            </thead> 
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </body>
+</html>
